@@ -3,7 +3,7 @@ import { Poppins } from "next/font/google";
 const poppins = Poppins({ subsets: ['latin'], weight: "400" })
 const NavBar = () => {
     return (
-        <div className="px-[8%] pt-10 pb-4 border-b">
+        <div className="px-[10%] pt-10 pb-4 border-b">
             <div className="flex justify-between items-center">
                 <a href="#" className="font-bold text-2xl leading-6 tracking-[0.48px]">Exclusive</a>
                 <nav>
@@ -16,8 +16,8 @@ const NavBar = () => {
                 </nav>
                 <div className="flex gap-6">
                     <div className="relative w-fit">
-                        <input className="bg-[#f5f5f5] py-[10px] pl-5"
-                            type="search" name="" id="" placeholder="What are you looking for?" />
+                        <input className="bg-[#f5f5f5] py-[10px] pl-5 rounded-[4px] focus:outline-none"
+                            name="" id="" placeholder="What are you looking for?" />
                         <MagnifyingGlassIcon className="w-5 absolute right-4 top-3" />
                     </div>
                     <div className="flex gap-4">
