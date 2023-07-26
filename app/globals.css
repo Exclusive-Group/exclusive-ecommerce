@@ -2,4 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
+.arrowButton{
+    @apply w-[46px] h-[46px] bg-secondary rounded-full cursor-pointer flex justify-center items-center
+}
