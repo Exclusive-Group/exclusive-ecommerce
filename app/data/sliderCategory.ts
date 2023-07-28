@@ -48,5 +48,25 @@ export const listaCategory = [
         name: "SmartHouse",
         url:"/iconSmartHouse.png",
         alt: "SmartHouse"
+    },
+    {
+        name: "Television",
+        url: "/iconTV.png",
+        alt: "Television"
+    },
+    {
+        name:"Drone",
+        url: "/iconDrone.png",
+        alt: "Drone"
+    },
+    {
+        name:"Security",
+        url: "/iconSeguranca.png",
+        alt: "Security"
+    },
+    {
+        name: "SmartHouse",
+        url:"/iconSmartHouse.png",
+        alt: "SmartHouse"
     }
 ]
