@@ -1,8 +1,9 @@
 import Button from "./components/button";
 import NavMenu from "./components/navMenu";
 import Slider from "./components/slider";
-import SliderSection from "./components/sliderSection";
+import SliderSection from "./components/sliderProductsSection";
 import TagSection from "./components/tagSection";
+import SliderCategory from "./components/sliderCategoriesSection "
 
 export default function Home() {
   return (
@@ -19,6 +20,11 @@ export default function Home() {
             View All Products
           </Button>
         </div>
+      </section>
+      <hr></hr>
+      <section id="categories">
+        <TagSection name="Categories" />
+        <SliderCategory name="Browse By Category"/>
       </section>
     </div>
   )
