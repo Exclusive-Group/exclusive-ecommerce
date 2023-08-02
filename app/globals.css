@@ -5,3 +5,15 @@
 .arrowButton{
     @apply w-[46px] h-[46px] bg-secondary rounded-full cursor-pointer flex justify-center items-center
 }
+
+.footer-title{
+    @apply font-medium text-xl text-title-gray mb-6
+}
+
+.footer-content{
+    @apply font-normal text-base text-title-gray
+}
+
+.footer-list li a {
+    @apply font-normal text-base text-title-gray hover:underline
+}
