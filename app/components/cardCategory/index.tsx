@@ -8,7 +8,7 @@ type TypeProps = {
 
 const CardCategory = (props: TypeProps) => {
     return (
-        <div className="min-w-[170px] h-[145px] border rounded-lg border-gray-400 grid items-center justify-center hover:bg-primary hover:text-white">
+        <div className="min-w-[170px] h-[145px] border rounded-lg border-gray-400 grid items-center justify-center hover:bg-primary hover:text-white cursor-pointer mb-20">
             <Image src={props.url} alt={props.alt} width={56} height={56} className="m-auto" />
             <span className="">{props.name}</span>
         </div>
