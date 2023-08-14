@@ -1,6 +1,6 @@
 import NavMenuItem from '../navMenuItem';
-import { wonmansList } from '../../data';
-import { mansList } from '../../data';
+import { wonmansList } from '../../data/navMenu';
+import { mansList } from '../../data/navMenu';
 import { Poppins } from "next/font/google";
 const poppins = Poppins({ subsets: ['latin'], weight: "400" })
 

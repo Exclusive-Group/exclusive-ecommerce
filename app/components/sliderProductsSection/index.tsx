@@ -1,5 +1,5 @@
 "use client"
-import { products } from "@/app/data"
+import { products } from "@/app/data/navMenu"
 import { ArrowLeftIcon, ArrowRightIcon } from "@heroicons/react/24/outline"
 import { useRef } from "react"
 import ProductCard from "../productCard"
@@ -8,7 +8,7 @@ type TypeProps = {
     name: string
 }
 
-const SliderSection = (props: TypeProps) => {
+const SliderProductsSection = (props: TypeProps) => {
 
     const scrollRef = useRef<HTMLDivElement>(null);
 
@@ -45,4 +45,4 @@ const SliderSection = (props: TypeProps) => {
         </div>
     )
 }
-export default SliderSection
+export default SliderProductsSection
